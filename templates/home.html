@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu</title>
+  <style>body {font-family: Helvetica;}</style>
+</head>
+<body>
+  <h1>Botanic</h1>
+  <ul>
+      {% for item in botanic %}
+          <li>{{ item }}</li>
+      {% endfor %}
+  </ul>
+
+  <h1>Mediteran Bistro</h1>
+  <ul>
+      {% for item in mediteran %}
+          <li>{{ item }}</li>
+      {% endfor %}
+  </ul>
+
+</body>
+</html>
